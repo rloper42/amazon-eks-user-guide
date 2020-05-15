@@ -25,6 +25,8 @@ Amazon EKS does not modify any of your Kubernetes add\-ons when you update a clu
 
 If you're using additional add\-ons for your cluster that aren't listed in the previous table, update them to the latest compatible versions after updating your cluster\.
 
+**NOTE: Tag versions typically have a 'v' in front of them\.  So for kube-proxy if you want version 1\.15\.11, you need to put 'v1\.15\.11' as the tag\.**
+
 ## Update an existing cluster<a name="update-existing-cluster"></a>
 
 Update the cluster and Kubnernete add\-ons\.
